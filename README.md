@@ -48,6 +48,14 @@ Plug 'nvim-lua/plenary.nvim' " don't forget to add this one if you don't have it
 Plug 'ThePrimeagen/harpoon'
 ```
 
+* install using [lazy.nvim](https://github.com/folke/lazy.nvim)
+```lua
+{
+    "ThePrimeagen/harpoon",  branch = "harpoon2",
+    dependencies = { "nvim-lua/plenary.nvim" }
+}
+```
+
 ## ⇁ Harpooning
 here we'll explain how to wield the power of the harpoon:
 
